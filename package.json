@@ -10,9 +10,6 @@
     "test": "npm run build && node --test tests/engine.test.mjs",
     "lint": "tsc --noEmit"
   },
-  "dependencies": {
-    "@qmoosa/dex-aggregator-protocol": "file:../qmoosa-dex-aggregator-protocol"
-  },
   "devDependencies": {
     "@types/node": "^20.12.7",
     "typescript": "^5.4.5"

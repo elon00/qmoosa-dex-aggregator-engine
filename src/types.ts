@@ -1,4 +1,5 @@
-export * from "@qmoosa/dex-aggregator-protocol";
+export * from "./interfaces.js";
+export * from "./math.js";
 
 export type AdminActionType =
   | "REGISTER_POOL"
