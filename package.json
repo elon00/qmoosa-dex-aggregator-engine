@@ -1,0 +1,31 @@
+{
+  "name": "@qmoosa/dex-aggregator-engine",
+  "version": "1.0.0",
+  "description": "DEX Aggregator Engine — Graph Route Solver, Multi-DEX Split Optimizer & Ed25519 Intent Engine",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/engine.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@qmoosa/dex-aggregator-protocol": "file:../qmoosa-dex-aggregator-protocol"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "dex-aggregator",
+    "engine",
+    "graph-solver",
+    "split-optimizer",
+    "ed25519",
+    "defi"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
