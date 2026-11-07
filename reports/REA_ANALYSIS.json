@@ -1,0 +1,53 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 15,
+  "manifest": {
+    "package-lock.json": {
+      "bytes": 2024
+    },
+    "package.json": {
+      "bytes": 690
+    },
+    "tsconfig.json": {
+      "bytes": 352
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "src\\auth.ts": {
+      "bytes": 3650
+    },
+    "src\\engine.ts": {
+      "bytes": 12722
+    },
+    "src\\index.ts": {
+      "bytes": 87
+    },
+    "src\\interfaces.ts": {
+      "bytes": 736
+    },
+    "src\\math.ts": {
+      "bytes": 4423
+    },
+    "src\\types.ts": {
+      "bytes": 692
+    },
+    "tests\\engine.test.mjs": {
+      "bytes": 4698
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    ".github\\workflows\\ci.yml": {
+      "bytes": 1259
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    }
+  },
+  "timestamp": 1794022353
+}
